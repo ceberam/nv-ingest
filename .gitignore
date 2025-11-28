@@ -228,5 +228,8 @@ docs/site
 # Ignore "private_local" scripts that users might have in their local copy of nv-ingest they don't want to commit
 scripts/private_local/*
 
-# MacOS
-.DS_Store
+# Ignore macOS file
+*.DS_Store
+
+# Ignore Milvus data
+milvus/
